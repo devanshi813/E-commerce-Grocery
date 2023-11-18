@@ -1,0 +1,116 @@
+/* Common styles for list items */
+.contact ul li {
+    padding: 05px 0px;
+}
+
+/* Footer container styles */
+
+.Footer-container {
+    background-color: #F3F6FA;
+    width: 100%;
+}
+
+.sub-Footer-container {
+    width: 65%;
+    height: auto;
+    padding: 70px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+/* Contact styles */
+.contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Link styles */
+.link {
+    padding: 0px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.link p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link ul {
+    list-style: none;
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.link ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #212529;
+    line-height: 32px;
+}
+
+/* Newsletter styles */
+.Newsletter {
+    text-align: left;
+}
+
+.joining{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Newsletter p {
+    font-size: 14px;
+}
+
+
+
+.Newsletter input {
+    width: 52%;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: 40px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+}
+
+.Newsletter button {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 17px 30px 17px 30px;
+    background: #7fad39;
+    border: none;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Footer-container {
+        grid-template-columns: 1fr; /* Change to a single column layout on smaller screens */
+    }
+
+    .link ul li {
+        width: 100%; /* Each link takes the full width on smaller screens */
+    }
+}
+
+

@@ -1,0 +1,62 @@
+.inside-cart-card {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0px auto;
+  }
+  
+  .item-img {
+    width: 200px;
+  }
+  
+  .img-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .changeBtn {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 27px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid #ccc;
+  }
+  
+  .input {
+    width: 50%;
+    height: 30px;
+    padding: 1px 1px 0px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    border-right: none;
+    border-left: none;
+  }
+  
+  .increase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .item-price {
+    font-weight: bold;
+  }
+  
+  .price,
+  .del {
+    margin: 0; /* Reset margin to 0 */
+  }
+  
+  td {
+    flex: 1; /* Equal space between td elements */
+    text-align: center; /* Center align text in each cell */
+  }
+  
